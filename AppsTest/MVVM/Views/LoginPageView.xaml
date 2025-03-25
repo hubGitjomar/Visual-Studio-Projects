@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppsTest.MVVM.Views.LoginPageView"
+             Title="LoginPageView"
+             BackgroundColor="#0081DD">
+    <VerticalStackLayout HorizontalOptions="Center"
+                       Margin="0,150,0,0"
+                       Spacing="30">
+        <Label Text="LOGIN"
+                TextColor="White"
+               FontSize="40"
+               HorizontalTextAlignment="Center"/>
+        <HorizontalStackLayout Spacing="20">
+            <Image Source="user.svg"
+                   HeightRequest="25"/>
+            <Frame CornerRadius="5" Margin="0,0,0,0" Padding="0,0,0,0">
+                <Entry BackgroundColor="White" TextColor="Black" 
+               WidthRequest="250" Placeholder="Username" PlaceholderColor="Gray" Margin="10,0,10,0"/>
+            </Frame>
+        </HorizontalStackLayout>
+        
+        <HorizontalStackLayout Spacing="20">
+            <Image Source="password.svg"
+        HeightRequest="25"/>
+            <Frame CornerRadius="5" Margin="0,0,0,0" Padding="0,0,0,0">
+                <Entry BackgroundColor="White" TextColor="Black" 
+    WidthRequest="250" Placeholder="Password" IsPassword="True" PlaceholderColor="Gray" Margin="10,0,10,0"/>
+            </Frame>
+        </HorizontalStackLayout>
+
+        <Button Text="Enter"
+                BackgroundColor="White"
+                TextColor="Black"
+                CornerRadius="5"
+                FontSize="20"
+                FontAttributes="Bold"
+                WidthRequest="100"
+                />
+    </VerticalStackLayout>
+
+</ContentPage>
