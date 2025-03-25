@@ -49,9 +49,10 @@ WidthRequest="200" Placeholder="Password" IsPassword="True" PlaceholderColor="Gr
             FontAttributes="Bold"
             WidthRequest="100"
             />
-        
-        
+
+			<Image Source="clouds1.png"/>
       </VerticalStackLayout>
+	
         <Image Source="Resources/Images/clouds1.png"
              Aspect="AspectFill"
              HeightRequest="502"
